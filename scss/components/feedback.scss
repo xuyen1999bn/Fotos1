@@ -1,0 +1,46 @@
+.feedback {
+    border: 1px solid #57595b;
+}
+
+@media (max-width: 1024px) {
+    .feedback {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+   .feedback {
+       margin-bottom: 30px;
+   }
+}
+
+.feedback__title {
+    border-bottom: 1px solid #57595b;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.feedback__img  {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    border-radius: 50%;
+    img {
+        display: block;
+        border-radius: 50%;
+    }
+}
+
+.feedback__name {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--nav-color);
+    @extend %font;
+}
+
+.feedback__detail {
+    color: var(--light-color);
+    padding: 30px;
+}

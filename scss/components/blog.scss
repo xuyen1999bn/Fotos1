@@ -1,0 +1,20 @@
+.blog {
+    padding-bottom: 50px;
+}
+
+.blog-title {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--title-color);
+    @extend %font;
+}
+
+.blog-slash {
+    padding-bottom: 20px;
+}
+
+.blog-slash::before {
+    content: "//";
+    color: #d0c4ad;
+    margin-right: 5px;
+}

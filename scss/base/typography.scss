@@ -1,0 +1,32 @@
+blockquote {
+    font-family: $font-Playfair;
+    font-size: 14px;
+    color: var(--tx-color);
+    margin: 0;
+}
+
+h1 {
+    @extend %font;
+}
+
+h2 {
+    @extend %font;
+}
+
+h3 {
+    @extend %font;
+}
+
+h4 {
+    @extend %font;
+}
+
+h5 {
+    @extend %font;
+}
+
+h6 {
+    @extend %font;
+}
+
+

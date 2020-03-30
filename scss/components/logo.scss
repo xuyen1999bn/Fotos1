@@ -1,0 +1,20 @@
+.logo {
+    display: inline-block;
+    flex: 50%;
+    img {
+        max-width: 100%;
+    }
+}
+//tablet
+@media(min-width:768px) and (max-width:1023px) {
+    .logo img{
+        width: 50%;
+    }
+}
+
+//mobile
+@media(max-width: 575px) {
+    .logo img{
+        width: 40%;
+    }
+}

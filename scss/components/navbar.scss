@@ -1,0 +1,41 @@
+.navbar {
+    position: relative;
+    flex: 50%;
+}
+
+.navbar__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    li {
+        display: inline-block;
+        position: relative;
+        a {
+            text-decoration: none;  
+        }
+    }
+}
+
+.navbar__list li:hover > .submenu{ 
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+@media (max-width:1023px) {
+    .navbar__list {
+        display: none;
+    }
+}
+
+.navbar__link {
+    color: var(--nav-color);
+    font-weight: 400;
+    &:hover {
+        color: var(--hover-color);
+        border-bottom: 1px solid var(--hover-color);
+    }
+}
+

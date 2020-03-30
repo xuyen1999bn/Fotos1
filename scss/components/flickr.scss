@@ -1,0 +1,21 @@
+.flickr {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flickr__img {
+    display: block;
+    margin-right: 5px;
+    margin-top: 5px;
+    flex: 30%;
+    img {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .flickr__img {
+        flex: 25%;
+        max-width: 25%;
+        margin-top: 10px;
+    }
+}

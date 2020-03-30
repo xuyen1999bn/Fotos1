@@ -1,0 +1,19 @@
+
+.readmore {
+    min-height: 22px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .readmore__text {   
+        display: block;
+        font-size: 12px;
+        text-decoration: none;
+        border-bottom: 1px solid #2f3238;
+        color: var(--title-color);
+        @extend %font;
+        &:hover {
+            color: var(--hover-color);
+            border-bottom: 1px solid var(--hover-color);
+        }
+    }
+}

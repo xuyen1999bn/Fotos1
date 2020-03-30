@@ -1,0 +1,29 @@
+.item {
+    font-weight: 400;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__title {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--title-color);
+    @extend %font;
+    display: flex;
+    align-items: center;
+}
+
+// .list-item__date {
+//     font-size: 11px;
+//     @extend %font;
+//     color: var(--tx-color);
+//     // border-bottom: 1px solid #e9ecef;
+//     padding-bottom: 18px;
+// }
+
+// .list-item__desc {
+//     color: var(--tx-color);
+//     margin-top: 13px;
+//     text-align: justify;
+// }

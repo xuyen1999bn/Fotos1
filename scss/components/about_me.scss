@@ -1,0 +1,25 @@
+.about-me__title {
+    @extend %font;
+    color: var(--title-color);
+    font-size: 36px;
+}
+
+.about-me__detail {
+    color: var(--tx-color);
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        margin-top: 10px;
+    }
+    .about-me__title {
+        font-size: 23px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-me__title {
+        font-size: 20px !important;
+    }
+}

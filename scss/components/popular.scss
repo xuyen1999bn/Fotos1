@@ -1,0 +1,34 @@
+.popular__post {
+    padding: 15px 0;
+}
+
+.popular__img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    img {
+        display: block;
+        border-radius: 50%;
+    }
+}
+
+.popular__detail {
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+@media (max-width: 991px) {
+    .popular__detail {
+        display: block;
+        padding-left: 0;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 765px) {
+    .popular__detail {
+        display: inline-block;
+        padding-left: 40px;
+    }
+}

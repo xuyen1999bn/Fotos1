@@ -1,0 +1,23 @@
+.list-about {
+    display: flex;
+    .list-about__icon {
+        flex-basis: 20%;
+        padding-left: 8px;
+        padding-top: 5px;
+    }
+    .list-about__description {
+        flex-basis: 80%;
+    }
+}
+
+.list-about__name {
+    color: $title-color;
+    @extend %font;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.list-about__detail {
+    color: var(--tx-color);
+    text-align: justify;
+}

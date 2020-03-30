@@ -1,0 +1,28 @@
+.widget__flickr {
+    padding-top: 48px;
+}
+
+.width__tags {
+    padding-top: 60px;
+    a {
+        text-decoration: none;
+        color: var(--tx-color);
+        padding-top: 10px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.width__tags a:not(:last-child)::after {
+    content: ",";
+    color: var(--tx-color);
+    padding-left: 3px;
+}
+
+@media (max-width: 767px) {
+    .widget {
+        padding-top: 50px;
+    }
+}
+

@@ -1,0 +1,29 @@
+.btn-primary {
+    background-color: var(--bg-color);
+    color: var(--hover-color);
+    border: 0;
+    padding: 20px 45px ;
+    font-size: 14px;
+    font-weight: $poppins-w;
+    letter-spacing: 2px;
+    font-family: $font-Poppins;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .btn-primary {
+        min-height: 50px;
+        min-width: 180px;
+    }
+}
+
+.btn-showmore {
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    background-color: #e9ecef;
+    padding: 13px 0;
+    color: $title-color;
+    @extend %font;
+}

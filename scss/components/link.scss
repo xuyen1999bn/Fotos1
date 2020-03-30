@@ -1,0 +1,47 @@
+.link {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.link__left {
+    flex: 60%;
+    a {
+        text-decoration: none;
+        color: var(--tx-color);
+        padding-top: 10px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.link__right {
+    flex: 40%;
+    text-align: right;
+}
+
+.link__title {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--title-color);
+    @extend %font;
+}
+
+.link__left a:not(:last-child)::after {
+    content: ",";
+    color: var(--tx-color);
+    padding-left: 3px;
+}
+
+
+@media (max-width: 575px) {
+    .link {
+        display: block;
+    }
+
+    .link__right {
+        text-align: left;
+        padding-top: 20px;
+    }
+}

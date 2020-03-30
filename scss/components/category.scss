@@ -1,0 +1,18 @@
+.category {
+    padding-top: 38px;
+}
+.category-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.category-title {
+    color: var(--tx-color);
+    text-decoration: none;
+}
+
+.category-number {
+    color: #b1b3b8;
+    @extend %font;
+}

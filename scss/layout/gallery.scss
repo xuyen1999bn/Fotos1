@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__img {
+    display: block;
+    img {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery__item {
+        flex: 30%;
+    }
+}
+
+@media (max-width: 575px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery__item {
+        flex: 50%;
+    }
+}

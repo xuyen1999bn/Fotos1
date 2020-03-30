@@ -1,0 +1,22 @@
+.plus {
+    padding: 10px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    a {
+        width: 45px;
+        height: 45px;
+        background-color: $title-color;
+        color: white;
+        border-radius: 50%;
+        display: block;
+        position: relative;
+        i {
+            display: inline-block;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

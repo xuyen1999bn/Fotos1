@@ -1,0 +1,40 @@
+.title__name {
+    @extend %font;
+    color: var(--title-color);
+    font-size: 36px;
+}
+
+.title__description {
+    font-family: $font-Playfair;
+    font-size: 16px;
+    color: var(--tx-color);
+}
+@media (max-width: 992px) {
+    .title__name {
+        font-size: 30px !important;
+    }
+
+    .title__description {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .title__name {
+        font-size: 29px !important;
+    }
+
+    .title__description {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .title__name {
+        font-size: 27px !important;
+    }   
+
+    .title__description {
+        font-size: 12px !important;
+    }
+}
