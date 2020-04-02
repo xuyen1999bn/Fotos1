@@ -1,4 +1,7 @@
 // nav_mobile
+.nav-mobile {
+    border: 1px solid gray;
+}
 .nav-mobile-icon {
     font-size: 30px;
     color: var(--white-color);
@@ -50,11 +53,23 @@
         width: 100%;
     }
 }
+
+.nav-mobile__header {
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+.nav-mobile__logo {
+    font-size: 20px;
+    color: var(--white-color);
+    width: 40%;
+}
 .nav-mobile__list {
-    margin-top: 50px;
-    padding: 0;
-    padding-left: 25px;
     list-style: none;
+    padding: 0;
+    & li {
+        padding-left: 20px;
+    }
 }
 
 .nav-mobile__link {
@@ -75,7 +90,6 @@
     font-size: 20px;
     position: absolute;
     color: var(--white-color);
-    top: 10px;
     right: 10px;
 }
 
