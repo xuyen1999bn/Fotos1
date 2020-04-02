@@ -5,16 +5,16 @@
         max-width: 100%;
     }
 }
-//tablet
-@media(min-width:768px) and (max-width:1023px) {
-    .logo img{
-        width: 50%;
+
+@media (max-width: 991px) {
+    .logo img {
+        width: 65%;
     }
 }
 
 //mobile
 @media(max-width: 575px) {
     .logo img{
-        width: 40%;
+        width: 60%;
     }
 }

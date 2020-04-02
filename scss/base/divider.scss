@@ -3,7 +3,8 @@
     height: 18px;
     background-color: #d8dce0;
     border: 0;
-    margin-top: 11px;
+    margin: 0 auto;
+    margin-top: 15px !important;
 }
 
 .divider-solid {
@@ -17,4 +18,12 @@
     background-color: #e9ecef;
     height: 1px;
     border: 0;
+}
+
+.divider-item {
+    width: 32px;
+    height: 2px;
+    background-color: #e9ecef;
+    border: 0;
+    margin: 0;
 }
